@@ -6,27 +6,12 @@ From: Docker Mail Server <dockermailserver@external.tld>
 To: Existing Local User <user1@localhost.localdomain>
 Date: Sat, 22 May 2010 07:43:25 -0400
 Subject: Test Message amavis-virus.txt
+Content-Transfer-Encoding: base64
 
-Content-type: multipart/mixed; boundary="emailboundary"
-MIME-version: 1.0
-
-This is a multi-part message in MIME format.
---emailboundary
-Content-type: text/plain
-
-This is the body of the message.
-
---emailboundary
-Content-type: application/octet-stream
-Content-transfer-encoding: base64
-
-UEsDBAoAAAAAAOCYuCg8z1FoRAAAAEQAAAAJAAAAZWljYXIuY29tWDVPIVAlQEFQ
-WzRcUFpYNTQoUF4pN0NDKTd9JEVJQ0FSLVNUQU5EQVJELUFOVElWSVJVUy1URVNU
-LUZJTEUhJEgrSCpQSwECFAAKAAAAAADgmLgoPM9RaEQAAABEAAAACQAAAAAAAAAB
-ACAA/4EAAAAAZWljYXIuY29tUEsFBgAAAAABAAEANwAAAGsAAAAAAA==
-
-
---emailboundary--
-
-.
-QUIT
+Q29udGVudC10eXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PSJlbWFpbGJvdW5kYXJ5
+IgpNSU1FLXZlcnNpb246IDEuMAoKVGhpcyBpcyBhIG11bHRpLXBhcnQgbWVzc2FnZSBpbiBN
+SU1FIGZvcm1hdC4KLS1lbWFpbGJvdW5kYXJ5CkNvbnRlbnQtdHlwZTogdGV4dC9wbGFpbgoK
+VGhpcyBpcyB0aGUgYm9keSBvZiB0aGUgbWVzc2FnZS4KCi0tZW1haWxib3VuZGFyeQpDb250
+ZW50LXR5cGU6IGFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbQpDb250ZW50LVRyYW5zZmVyLUVu
+Y29kaW5nOiBiYXNlNjQKClVFc0ZCZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQT09DQoKLS1l
+bWFpbGJvdW5kYXJ5LS0KCi4KUVVJVAo=
